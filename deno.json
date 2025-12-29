@@ -1,0 +1,12 @@
+{
+    "tasks": {
+        "dev": {
+            "description": "Run the thingy",
+            "command": "deno run --watch -N src/main.ts"
+        }
+    },
+    "imports": {
+        "preact": "https://esm.sh/preact",
+        "preact-render-to-string": "https://esm.sh/preact-render-to-string"
+    }
+}
